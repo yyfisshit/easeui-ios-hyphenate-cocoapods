@@ -66,7 +66,7 @@ CGFloat const EaseUserCellPadding = 10;
     _avatarView = [[EaseImageView alloc] init];
     _avatarView.translatesAutoresizingMaskIntoConstraints = NO;
     [self.contentView addSubview:_avatarView];
-    
+    NSString *string;
     _titleLabel = [[UILabel alloc] init];
     _titleLabel.accessibilityIdentifier = @"title";
     _titleLabel.translatesAutoresizingMaskIntoConstraints = NO;
